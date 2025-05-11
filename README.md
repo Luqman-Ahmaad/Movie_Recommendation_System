@@ -8,8 +8,6 @@ This is a **Content-Based Movie Recommendation System** built with **Python**, *
 
 🚀 [Click here to try the app](https://movie-recommendations--system.streamlit.app)
 
-> ⚠️  [Streamlit Cloud](https://streamlit.io/cloud).
-
 ---
 
 ## 🧠 How it Works
