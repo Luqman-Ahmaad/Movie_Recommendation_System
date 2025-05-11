@@ -7,7 +7,6 @@ This is a **Content-Based Movie Recommendation System** built with **Python**, *
 ## 🔗 Live Demo
 
 🚀 [Click here to try the app]([https://movie-recommendations--system.streamlit.app/.app])
-> *(Replace with your actual deployed Streamlit Cloud URL)*
 
 ---
 
