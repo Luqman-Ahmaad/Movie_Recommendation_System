@@ -6,38 +6,29 @@ This is a **Content-Based Movie Recommendation System** built with **Python**, *
 
 ## 🔗 Live Demo
 
-🚀 [Click here to try the app]([https://movie-recommendations--system.streamlit.app/.app])
+🚀 [Click here to try the app](https://movie-recommendations--system.streamlit.app)
+
+> ⚠️  [Streamlit Cloud](https://streamlit.io/cloud).
 
 ---
 
-## 🧠 How it works
+## 🧠 How it Works
 
-- Extracts features like genres, keywords, overview, cast, and crew
-- Combines them into a single text field (called `tags`)
-- Transforms tags into vectors using `CountVectorizer`
-- Uses **Cosine Similarity** to find movies with similar content
-- Recommends top 5 similar movies
+- Extracts features like genres, keywords, overview, cast, and crew from the dataset.
+- Combines them into a single text field (`tags`) per movie.
+- Converts the tags into numeric vectors using `CountVectorizer`.
+- Uses **Cosine Similarity** to compute similarity between movies.
+- Recommends the **Top 5 most similar movies** based on the selected title.
 
 ---
 
 ## 📌 Features
 
-✅ Recommend similar movies based on content  
-✅ Clean, simple **Streamlit** web interface  
-✅ Lightweight and easy to deploy on **Streamlit Cloud**  
-✅ Based on **Cosine Similarity** and **text vectorization**  
-✅ Uses **preprocessed movie metadata** for fast performance
-
----
-
-## 📦 Requirements
-
-- Python
-- streamlit
-- pandas
-- numpy
-- scikit-learn
-- nltk
+✅ Content-based filtering using movie metadata  
+✅ Built with **Streamlit** for an interactive web UI  
+✅ Fast and responsive recommendations  
+✅ Uses **Cosine Similarity** for measuring movie similarity  
+✅ Suitable for small to medium-sized datasets  
+✅ Easily deployable on **Streamlit Cloud**
 
 
-  
